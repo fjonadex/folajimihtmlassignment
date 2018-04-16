@@ -2,19 +2,17 @@ var timer = 60;
 var score = 0;
 
 function setup() {
-  createCanvas(400, 400);
- 
-
+ // createCanvas(400, 400);
 }
 
 function draw() {
   background(66, 244, 244);
   ellipse(200,200,50,50);
-  push()
+  push();
   textSize(13.5);
  	fill("red");
   text("Press 'F' and 'J' to gain points", 10, 160);
-  pop()
+  pop();
   push()
   textSize(13.5);
  	fill("red");
